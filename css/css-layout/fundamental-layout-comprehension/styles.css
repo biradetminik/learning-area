@@ -49,3 +49,32 @@ body {
   .feature {
       width: 200px;
   }
+
+  /*** ADDED CODE / ILKER TASCI ***/
+  nav{
+    position: sticky;
+  }
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li{
+    flex: 1;
+    text-align: center;
+  }
+
+  main article img{
+    float: left;
+    margin-right: 15px;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+  }
+
+  .photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+  }
